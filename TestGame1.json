@@ -2578,7 +2578,24 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
           "string": "Manic Mine",
           "font": "VCR_OSD_MONO_1.002.ttf",
           "textAlignment": "left",
@@ -2590,7 +2607,7 @@
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": true,
             "italic": false,
             "outlineColor": "255;255;255",
@@ -2646,7 +2663,7 @@
               "width": 192
             },
             "Label": {
-              "bold": false,
+              "bold": true,
               "italic": false,
               "smoothed": true,
               "underlined": false,
@@ -2660,7 +2677,7 @@
                 "r": 255
               },
               "content": {
-                "bold": false,
+                "bold": true,
                 "isOutlineEnabled": false,
                 "isShadowEnabled": false,
                 "italic": false,
