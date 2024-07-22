@@ -608,6 +608,16 @@
         "metadata": "",
         "name": "VCR_OSD_MONO_1.002.ttf",
         "userAdded": true
+      },
+      {
+        "file": "thing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "thing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3420,7 +3430,20 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "thing.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "folded": true,
@@ -4276,7 +4299,20 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "thing.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "folded": true,
@@ -5237,7 +5273,20 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "thing.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "folded": true,
