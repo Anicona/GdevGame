@@ -644,6 +644,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/01b211653b0c357bab0bbbbd3e9d99e63e556ceef769f2e61f72f4704c2ade73_tiled_Wall for Blue Floor.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Turoial.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Turoial.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2558,7 +2576,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.645510570331149,
+        "zoomFactor": 0.8141881203709929,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2600,16 +2618,33 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 213,
+          "depth": 42,
+          "height": 185,
           "keepRatio": true,
           "layer": "",
           "name": "GreyButtonWithShadow",
           "persistentUuid": "8b4e4ed5-baa4-4a10-a790-26980dd8505e",
-          "width": 607,
-          "x": 328,
-          "y": 282,
+          "width": 528,
+          "x": 372,
+          "y": 214,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 399,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "671774cd-7326-45ba-b18c-d94d3330a09d",
+          "width": 531,
+          "x": 373,
+          "y": 381,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2756,6 +2791,66 @@
               "width": 192
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Turoial.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 88
+                          },
+                          {
+                            "x": 960,
+                            "y": 88
+                          },
+                          {
+                            "x": 960,
+                            "y": 564
+                          },
+                          {
+                            "x": 0,
+                            "y": 564
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2766,6 +2861,9 @@
           },
           {
             "objectName": "GreyButtonWithShadow"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
@@ -2937,7 +3035,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -2945,8 +3043,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.209025562283353,
+        "snap": true,
+        "zoomFactor": 0.3553434558817003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3447,14 +3545,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "3d6f4926-2771-42af-b6a0-01e29603a8a0",
-          "width": 128,
-          "x": 2016,
-          "y": -896,
+          "width": 96,
+          "x": 2048,
+          "y": -864,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -3650,6 +3748,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4092,7 +4191,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.60408387499889,
+        "zoomFactor": 0.5843784410740961,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4252,14 +4351,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "2d8c6178-72f8-4d31-abc5-86f8bfd4f36f",
-          "width": 128,
-          "x": 2208,
-          "y": 64,
+          "width": 96,
+          "x": 2240,
+          "y": 96,
           "zOrder": 416,
           "numberProperties": [],
           "stringProperties": [],
@@ -4961,7 +5060,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2912258866911138,
+        "zoomFactor": 0.6897782140104559,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5138,14 +5237,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "bd44c220-0578-4363-87da-48d343d90f25",
-          "width": 128,
-          "x": 1824,
-          "y": 0,
+          "width": 96,
+          "x": 1856,
+          "y": 32,
           "zOrder": 413,
           "numberProperties": [],
           "stringProperties": [],
@@ -5936,7 +6035,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4057518905943893,
+        "zoomFactor": 0.5653158055126404,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6387,15 +6486,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "c4e65f5c-7c68-4af9-9401-8b60b270541e",
-          "width": 0,
-          "x": 3904,
-          "y": -416,
+          "width": 96,
+          "x": 3872,
+          "y": -448,
           "zOrder": 432,
           "numberProperties": [],
           "stringProperties": [],
@@ -7032,7 +7132,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3797121001948042,
+        "zoomFactor": 0.24672586957406972,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7551,15 +7651,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "88e446a1-5d22-4cc1-b904-6981a6442d6a",
-          "width": 0,
-          "x": 3072,
-          "y": -672,
+          "width": 96,
+          "x": 3040,
+          "y": -704,
           "zOrder": 440,
           "numberProperties": [],
           "stringProperties": [],
@@ -8180,7 +8281,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6672773998330012,
+        "zoomFactor": 0.23867758270258058,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8689,7 +8790,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 1,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
@@ -8706,7 +8807,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 1,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
@@ -8799,23 +8900,6 @@
           "width": 32,
           "x": 960,
           "y": 416,
-          "zOrder": 702,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "cf564a86-62b6-4cea-bcc5-45e12b203903",
-          "width": 32,
-          "x": 1280,
-          "y": 352,
           "zOrder": 702,
           "numberProperties": [],
           "stringProperties": [],
@@ -10006,8 +10090,8 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "07dae442-9ac1-4ff5-9a5c-eafc649f68f8",
-          "width": 800,
-          "x": 3520,
+          "width": 768,
+          "x": 3552,
           "y": -2176,
           "zOrder": 702,
           "numberProperties": [],
@@ -10097,15 +10181,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "3a9cf0f5-1e1b-4912-b673-53d72b477148",
-          "width": 0,
+          "width": 96,
           "x": 3456,
-          "y": -1536,
+          "y": -1568,
           "zOrder": 709,
           "numberProperties": [],
           "stringProperties": [],
@@ -11135,7 +11220,7 @@
               },
               "parameters": [
                 "",
-                "\"Level6\"",
+                "\"EndScreen\"",
                 ""
               ]
             }
@@ -11289,6 +11374,735 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "EndScreen",
+      "name": "EndScreen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.36732575450588284,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 117,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "c165d3c2-53d5-451e-9f59-e74c1c5a5166",
+          "width": 1033,
+          "x": 150,
+          "y": 13,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 42,
+          "height": 146,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreyButtonWithShadow",
+          "persistentUuid": "8b4e4ed5-baa4-4a10-a790-26980dd8505e",
+          "width": 738,
+          "x": 292,
+          "y": 545,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "d14a65a7-c381-4bed-b056-2a184fa4e449",
+          "width": 0,
+          "x": 340,
+          "y": 370,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Music_",
+          "persistentUuid": "9be8a202-dcf1-4e7d-8683-abc4eaa131a8",
+          "width": 0,
+          "x": 209,
+          "y": 398,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "61c255b6-8e0d-4ac7-bc7d-80ea51e8bc9b",
+          "width": 0,
+          "x": 98,
+          "y": 259,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText3",
+          "persistentUuid": "88d0d927-0cc2-4d8e-945f-af11f2f79699",
+          "width": 561,
+          "x": 623,
+          "y": 267,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "403c7bdd-057a-4bb0-861c-7a2df2537a26",
+          "width": 1777,
+          "x": -13,
+          "y": 694,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 764,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "0f7c2f74-ab0d-4156-932a-eb789b8a81a4",
+          "width": 1790,
+          "x": -43,
+          "y": -25,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "string": "You Escaped!!!",
+          "font": "VCR_OSD_MONO_1.002.ttf",
+          "textAlignment": "left",
+          "characterSize": 125,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You Escaped!!!",
+            "font": "VCR_OSD_MONO_1.002.ttf",
+            "textAlignment": "left",
+            "characterSize": 125,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
+          "name": "GreyButtonWithShadow",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 3,
+            "BottomPadding": 32,
+            "TopPadding": 32,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": true,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "To Main Menu",
+              "font": "VCR_OSD_MONO_1.001.ttf",
+              "textAlignment": "center",
+              "characterSize": 90,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": true,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "To Main Menu",
+                "font": "VCR_OSD_MONO_1.001.ttf",
+                "textAlignment": "center",
+                "characterSize": 90,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Pressed.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Turoial.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 88
+                          },
+                          {
+                            "x": 960,
+                            "y": 88
+                          },
+                          {
+                            "x": 960,
+                            "y": 564
+                          },
+                          {
+                            "x": 0,
+                            "y": 564
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "8bit Dungeon Boss Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\nModified by Leo Yan\n",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8bit Dungeon Boss Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\nModified by Leo Yan\n",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Music_",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Music:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Music:",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Code, Art, and Level Deisgn:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Code, Art, and Level Deisgn:",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Charlie Sisley, Leo Yan, Steven Jimenez",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Charlie Sisley, Leo Yan, Steven Jimenez",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "texture": "NewPanelSprite",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Title"
+          },
+          {
+            "objectName": "GreyButtonWithShadow"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "Music_"
+          },
+          {
+            "objectName": "NewText2"
+          },
+          {
+            "objectName": "NewText3"
+          },
+          {
+            "objectName": "NewPanelSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GreyButtonWithShadow",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        },
+        {
+          "name": "LinearMovement",
+          "type": "LinearMovement::LinearMovement"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TimedBackAndForthMirroredMovement",
