@@ -6035,7 +6035,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5653158055126404,
+        "zoomFactor": 0.24672586957406714,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6177,14 +6177,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 630,
+          "height": 470,
           "keepRatio": true,
           "layer": "",
           "name": "Water",
           "persistentUuid": "71fd45f6-34fb-456a-bd13-a33a6ef3713e",
           "width": 5961,
           "x": -1289,
-          "y": 768,
+          "y": 928,
           "zOrder": 412,
           "numberProperties": [],
           "stringProperties": [],
@@ -6428,7 +6428,7 @@
           "name": "Platform",
           "persistentUuid": "dad5f055-2a90-4fec-b270-190754666c18",
           "width": 0,
-          "x": 3232,
+          "x": 3200,
           "y": -160,
           "zOrder": 428,
           "numberProperties": [],
@@ -6460,7 +6460,7 @@
           "name": "MovingPlatform",
           "persistentUuid": "37b0cf0c-d3a3-4bae-91b8-4e6e58df5158",
           "width": 0,
-          "x": 3392,
+          "x": 3360,
           "y": -288,
           "zOrder": 430,
           "numberProperties": [],
@@ -6477,7 +6477,7 @@
           "name": "Ground",
           "persistentUuid": "ccf4f7d1-b2e9-4c56-a189-8325c4d9f17b",
           "width": 128,
-          "x": 3840,
+          "x": 3776,
           "y": -352,
           "zOrder": 431,
           "numberProperties": [],
@@ -6494,7 +6494,7 @@
           "name": "NewSprite",
           "persistentUuid": "c4e65f5c-7c68-4af9-9401-8b60b270541e",
           "width": 96,
-          "x": 3872,
+          "x": 3808,
           "y": -448,
           "zOrder": 432,
           "numberProperties": [],
@@ -6510,17 +6510,81 @@
           "name": "Slime2",
           "persistentUuid": "3aabe7d2-4ecb-4acc-a88c-46e574df3925",
           "width": 0,
-          "x": 3680,
+          "x": 3648,
           "y": -448,
           "zOrder": 433,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "bc0c57d2-dc70-4054-8f95-1ce8f4f1828a",
+          "width": 480,
+          "x": 384,
+          "y": 256,
+          "zOrder": 434,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Holding spacebar(jump) when you jump on an enemy will make you jump higher ",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Holding spacebar(jump) when you jump on an enemy will make you jump higher ",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewText"
+          }
+        ]
       },
       "events": [
         {
@@ -7103,6 +7167,10 @@
           "type": "SmoothCamera::SmoothCamera"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "TimedBackAndForthMirroredMovement",
           "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
         },
@@ -7208,14 +7276,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 630,
+          "height": 470,
           "keepRatio": true,
           "layer": "",
           "name": "Water",
           "persistentUuid": "71fd45f6-34fb-456a-bd13-a33a6ef3713e",
           "width": 5961,
           "x": -1289,
-          "y": 768,
+          "y": 928,
           "zOrder": 412,
           "numberProperties": [],
           "stringProperties": [],
@@ -11405,7 +11473,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36732575450588284,
+        "zoomFactor": 0.604083874998888,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11840,7 +11908,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Code, Art, and Level Deisgn:",
+          "string": "Code, Art, and Level Design:",
           "font": "",
           "textAlignment": "left",
           "characterSize": 40,
@@ -11863,7 +11931,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Code, Art, and Level Deisgn:",
+            "text": "Code, Art, and Level Design:",
             "font": "",
             "textAlignment": "left",
             "characterSize": 40,
